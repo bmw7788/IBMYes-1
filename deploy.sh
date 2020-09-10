@@ -67,7 +67,7 @@ echo "${BLUE}cf login${END}"
 $CF login -a https://api.us-south.cf.cloud.ibm.com <<EOF
 $IBM_ACCOUNT
 EOF
-
+ 
 cd ./v2ray-cloudfoundry
 #echo "${BLUE}ibmcloud cf push${END}"
 #$IBMCLOUD cf push
